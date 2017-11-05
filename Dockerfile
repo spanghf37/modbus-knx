@@ -2,6 +2,8 @@ FROM arm64v8/node:latest
 
 RUN npm install knx request dotenv jsmodbus
 
+#RUN npm install modbus-serial
+
 RUN npm install -g mocha
 
 RUN npm install -g sinon
